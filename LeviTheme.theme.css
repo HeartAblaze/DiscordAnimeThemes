@@ -1,0 +1,86 @@
+/**
+ * @name LeviTheme
+ * @author ClearVision Team
+ * @version 6
+ * @description Highly customizable and beautiful theme for BetterDiscord
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.gitlab.io
+ * @invite 2fKpjAR
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.gitlab.io/v6/main.css');
+
+:root {
+  --main-color: #8B8B8B;
+  --hover-color: #000000;
+  --success-color: #676767;
+  --danger-color: #470303;
+  --url-color: #EBDCC9;
+  --background-image: url('https://i.pinimg.com/originals/8f/04/0e/8f040e700acd11b66036cbad9f8bb934.jpg');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: 117%;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 68%;
+  --background-contrast: 142%;
+  --background-saturation: 126%;
+  --background-grayscale: 100%;
+  --background-invert: 0%;
+  --background-blur: 2px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: url('https://i.pinimg.comA/564x/3f/3c/42/3f3c4284fb402d2c930046a8ebf1f0ab.jpg');
+  --user-popout-position: center;
+  --user-popout-size: contain;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: scroll;
+  --user-popout-brightness: 0%;
+  --user-popout-contrast: 101%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 100%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 0px;
+  --user-modal-image: url('https://i.pinimg.com/564x/3f/3c/42/3f3c4284fb402d2c930046a8ebf1f0ab.jpg');
+  --user-modal-position: top right;
+  --user-modal-size: 90%;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: scroll;
+  --user-modal-brightness: 91%;
+  --user-modal-contrast: 132%;
+  --user-modal-saturation: 143%;
+  --user-modal-grayscale: 4%;
+  --user-modal-invert: 16%;
+  --user-modal-blur: 1px;
+  --home-icon: url('https://gifimage.net/wp-content/uploads/2017/08/levi-ackerman-gif-13-1.gif');
+  --home-position: center;
+  --home-size: 81px;
+  --channel-unread: #FFFFFF;
+  --channel-color: rgb(167,178,183,0.75);
+  --channel-color: rgb(167,178,183,0.75);
+  --online-color: #D7D7D7;
+  --idle-color: #3F382C;
+  --dnd-color: #636363;
+  --streaming-color: #2E1F47;
+  --offline-color: #2F2929;
+  --main-font: 'Montserrat';
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
